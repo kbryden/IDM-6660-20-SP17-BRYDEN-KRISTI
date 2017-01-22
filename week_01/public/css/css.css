@@ -1,1 +1,69 @@
 /* YOUR CSS GOES HERE */
+html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
+
+body {
+ 	max-width: 640px;
+    margin: 0 auto 3em auto;
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #111;
+ }
+
+h1, h2, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+	line-height: 1.2em;
+	letter-spacing: .005rem;
+	padding: .25em 0 .25em 0;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin: .75em 0 0 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0 0 .25em 0;
+}
+
+a {
+	color: #0074d9;
+}
+
+blockquote {
+	background-color: HSLA(0, 0%, 87%, 1.00);
+	padding: .75em .75em 1em .75em;
+	margin: 0;
+}
+
+ul {
+	padding: 1em;
+}
+
+ul li {
+	padding: 0 0 0 1em;
+}
+
+img, iframe {
+	display: block;
+	width: 100%;
+}
+
+iframe {
+	height: 20em;
+	margin: .25em 0 1.75em 0;
+}
+
+hr {
+	margin: 3em 0;
+}
+
+
+
+
