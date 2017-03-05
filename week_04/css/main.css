@@ -163,6 +163,10 @@ i {
     cursor: pointer;
    }
 
+.close-icon {
+  z-index: 1000;
+}
+
 .main-nav li {
     position: relative;
    }
