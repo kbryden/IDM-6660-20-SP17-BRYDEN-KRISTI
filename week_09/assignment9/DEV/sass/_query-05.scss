@@ -2,8 +2,16 @@
 
   html { font-size: 18px; }
 
-  body {
+ body {
+   background-color: $navy;
+ }
 
+  body main {
+    width: 829px;
+    background-color: #fff;
+    padding: 5rem;
   }
+
+
 
 }

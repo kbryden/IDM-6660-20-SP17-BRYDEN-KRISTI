@@ -4,6 +4,43 @@
 
   body {
 
+    main {
+      width: 600px;
+      margin: auto;
+      padding-top: 3rem;
+    }
+
+    p {
+      padding: 1rem;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+  }
+
+  h1, h2 {
+    padding: .5rem 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    padding-top: 0;
+  }
+
+  h4 {
+    padding: 4rem 1rem 1rem 1rem;
+    text-align: center;
   }
 
 }
