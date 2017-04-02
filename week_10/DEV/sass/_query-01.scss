@@ -1,0 +1,73 @@
+html { font-size: 12.5px; }
+
+body {
+
+  font-family: $copy-font;
+
+  p {
+    padding-top: 1em;
+  }
+
+  header {
+    background-color: $olive;
+    padding: 4rem 1rem 2rem 1rem;
+    font-family: $header-font;
+    margin: 0;
+    width: 100%;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+
+}
+
+
+.slide-left {
+    position: relative;
+
+    input {
+      display: none;
+    }
+
+    .menu-controller-label {
+      position: absolute;
+      top: 1rem;
+    }
+
+  ul {
+    background-color: $black;
+    color: $white;
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  ul li {
+    padding: 2rem 2rem 0 3rem;
+  }
+
+  .check-x {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+
+  a:link,
+  a:visited {
+
+    color: $white;
+    text-decoration: none;
+
+  }
+
+  a:hover { color: $olive; }
+
+  .menu-controller-checkbox ~ ul { transition: left .5s ease; }
+
+  .menu-controller-checkbox:checked ~ ul { left: 0; }
+
+}

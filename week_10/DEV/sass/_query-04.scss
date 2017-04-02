@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+
+  main {
+    width: 60%;
+    margin: auto;
+  }
+
+
+  h1 {
+    width: 60%;
+    margin: auto;
+  }
+
+  nav {
+    text-align: left;
+  }
+
+.slide-left {
+
+  .menu-controller-checkbox ~ ul {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .check-x {
+    display: none;
+  }
+
+  .menu-controller-label {
+    display: none;
+    visibility: hidden;
+  }
+
+  ul {
+    top: 1rem;
+    background-color: transparent;
+    height: inherit;
+    left: 15%;
+    padding: 0;
+    font-size: .85em;
+    width: 60%;
+  }
+
+  ul li {
+      display: inline-block;
+      margin: 0 1.5rem 0 0;
+      padding: 0;
+      text-align: left;
+  }
+
+  a:hover {
+    border-bottom: 1px solid $gray;
+    color: $gray;
+  }
+}
+
+}
