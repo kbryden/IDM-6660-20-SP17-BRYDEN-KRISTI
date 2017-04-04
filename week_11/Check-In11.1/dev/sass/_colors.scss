@@ -1,0 +1,21 @@
+body {
+
+  background-color: $orange;
+
+  @include phablet {
+    background-color: $red;
+  }
+
+  @include tablet {
+    background-color: $blue;
+  }
+
+  @include laptop {
+    background-color: $grey;
+  }
+
+  @include desktop {
+    background-color: $green;
+  }
+
+}
